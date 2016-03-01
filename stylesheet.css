@@ -3,12 +3,14 @@ html{font-family: sans-serif;
 body{
   margin:0px;
 }
-.all{
+#all{
     margin:0px;
     background:#404040;
+    overflow:hidden;
+
 }
 
-.header{
+#header{
    height:40px;
    background:#cccccc;
    width:100%;
@@ -17,7 +19,7 @@ body{
    border-color: #E21A1A;
    text-align:center;
 }
-.header h1{
+#header h1{
 font-style: normal;
 color: #404040;
 display: inline-block;
@@ -25,15 +27,17 @@ display: inline-block;
   margin-top: 7px;
 }
 
-.content{
-  margin-top: 2px;
-    width:800px;
+#content{
+    width:100%;
+    max-width:950px;
     background: #cccccc;
     height: 2000px;
     margin: auto;
     margin-top: 8px;
-    padding: 10px;
+    margin:10px auto;
+    padding:10px;
+
 }
-.footer{
+#footer{
 
 }
