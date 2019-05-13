@@ -10,13 +10,8 @@
 		@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
 
 
-body {
-  background-image: url("pics/background.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #464646;
+.hero {
+	background-image: url("pics/background.jpeg");
   font-family: ‘Roboto’, sans-serif;
   font-weight: 900;
   -webkit-background-size: cover;
@@ -29,8 +24,6 @@ header {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-
-
 }
 h1 {
   text-transform: uppercase;
@@ -61,27 +54,34 @@ text-decoration: underline
 	</style>
 </head>
 
-<body>
+<body class="hero">
+<section>
 
 <header>
   <h1>Povel Larsson</h1>
-  <h2>Student, developer, future engineer</h2>
+  <h2><del>Student, developer, future engineer</del> Medic. </h2>
 <p>
 
+<a href="resume.pdf" style="text-decoration:none">
+<img src="pics/resume.png" style="width:38px;height:38px;border:0;"
+</a>
+<a href="mailto:povel.larsson@gmail.com" style="text-decoration:none">
+<img src="pics/mail.png" style="width:38px;height:38px;border:0;"
+</a>
 <a href="http://github.com/p0ff3" style="text-decoration:none">
 <img src="pics/github.png" style="width:38px;height:38px;border:0;"
 </a>
 <a href="https://se.linkedin.com/in/povel-larsson-90737083" style="text-decoration:none">
 <img src="pics/link.png"
 </a>
-<a href="resume.pdf" style="text-decoration:none">
-<img src="pics/resume.png" style="width:38px;height:38px;border:0;"
+<a href="https://www.strava.com/athletes/23678415" style="text-decoration:none">
+<img src="pics/strava.png" style="width:42px;height:42px;border:0;margin-left:-14px"
 </a>
-<a href="mailto:povel.larsson@gmail.com" style="text-decoration:none">
-<img src="pics/mail.png" style="width:38px;height:38px;border:0;"
-</a></p>
+</p>
 
 </header>
+
+</section>
 
 
 </body>
